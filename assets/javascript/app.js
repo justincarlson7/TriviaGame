@@ -9,11 +9,10 @@ var intervalID = 0;
 
 
 
-function stopGame() {
+// function stopGame() {
 
-console.log("Time is up sucka!");
 
-}
+// }
 
 setTimeout(stopGame, 1000 * 3);
 
@@ -36,7 +35,7 @@ $("#timerNums").html("<h2>" + timer + "</h2>");
 if (timer === -1) {
 
 
-    stop();
+  
 
     alert("Time up!");
 }
@@ -45,4 +44,8 @@ if (timer === -1) {
 run();
 decrement();
 
+onclick answer
+if class is true
+show moreInfo
+Else show wrong anser
     
