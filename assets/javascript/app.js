@@ -1,10 +1,10 @@
-$( document ).ready() {
 
 
 
 
-var timer = 0;
-var intervalID
+
+var timer = 30;
+var intervalID = 0;
 
 
 
@@ -33,7 +33,7 @@ console.log("time " + timer);
 
 $("#timerNums").html("<h2>" + timer + "</h2>");
 
-if (timer === 0) {
+if (timer === -1) {
 
 
     stop();
@@ -44,5 +44,5 @@ if (timer === 0) {
 
 run();
 decrement();
-}
+
     
